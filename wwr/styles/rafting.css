@@ -46,7 +46,7 @@ nav, p, section, article {
 
 h1 {
    position: absolute; 
-   top: 20px;
+   top: auto;
    width: 100%;
    padding: 16px;
    text-align: center;
@@ -73,6 +73,12 @@ article {
 position: absolute;
 color: var(--accent2-color)
 }
+header {
+    display: grid;
+    grid-template-rows: 1/2, 1/2;
+}
+
+
 
 
 
