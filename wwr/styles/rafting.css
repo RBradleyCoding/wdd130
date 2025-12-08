@@ -27,7 +27,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 nav, p, section, article {
     margin: 16px;
@@ -52,9 +52,8 @@ h1 {
    width: 100%;
    padding: 16px;
    text-align: center;
-   opacity: 1;
+   opacity: 0.5;
    background-color: var(--accent1-color);
-   color: dimgray;
 }
 
 article {
@@ -122,4 +121,14 @@ footer {
 }
 h2 {
     text-align: center;
+}
+
+form {
+      margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #111;
+    display: flex;
+    flex-direction: row;
 }
